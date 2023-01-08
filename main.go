@@ -97,19 +97,65 @@ import (
 )
 
 func main() {
-	// fmt.Println(exce.Filtereven([]int{1,2,3,4,5}))	//1
-	// fmt.Println(exce.Sorted([]string{"zebra","monkey","aardvark"}))	//2
-	// fmt.Println(exce.Freq("hello"))	//3
-	// fmt.Println(exce.Sum([]int{1, 2, 3, 4, 5}))	//4
-	// fmt.Println(exce.Largest([]int{1,2,3,4,5}))	//5
-	// fmt.Println(exce.Fivecr([]string{"cat", "dog", "elephant", "lion"}))	//6
-	// fmt.Println(exce.Remvow("hello"))	//7
-	// fmt.Println(exce.Dupnum([]int{1, 2, 3, 2, 4, 5, 5})) //8
-	// fmt.Println(exce.Average([]int{1,2,3,4,5}))	//9
-	// fmt.Println(exce.Check([]string{"cat", "dog", "elephant"},"dog"))	//10
-	// fmt.Println(exce.SecLargest([]int{1,2,3,4,5}))	//11
-	// fmt.Println(exce.Indexing([]int{1,2,3,4,5},2))	//12
-	// fmt.Println(exce.Repnum([]int{1, 2, 3, 2, 4, 5},2))  //13
-	fmt.Println(exce.Reverse([]int{1,2,3,4,5}))	//14
+
+	fmt.Println(exce.Filtereven([]int{1,2,3,4,5}))		//1 RETURN EVEN NUMBERS.
+
+	fmt.Println(exce.Sorted([]string{"zebra","monkey","aardvark"}))		//2 RETURN IN ALPHABETICAL ORDER.
+
+	fmt.Println(exce.WordCount("hello"))		//3 RETURN FREQUENCY COUNT OF EACH CHARACTER.
+
+	fmt.Println(exce.Sum([]int{1, 2, 3, 4, 5}))		//4 RETURN SUM OF ALL ELEMENTS.
+
+	fmt.Println(exce.Largest([]int{1,2,3,4,5}))		//5 RETURNS LARGEST NUMBER.
+
+	fmt.Println(exce.Fivecr([]string{"cat", "dog", "elephant", "lion"}))		//6 RETURN ELEMENT CONTAINING MORE THAN 5 CHARACTER.
+
+	fmt.Println(exce.Remvow("hello"))		//7 REMOVE THE VOWELS.
+
+	fmt.Println(exce.Dupnum([]int{1, 2, 3, 2, 4, 5, 5})) 	//8 REMOVE DUPLICATE NUMBERS.
+
+	fmt.Println(exce.Average([]int{1,2,3,4,5}))	//9 RETURNS THE AVERAGE.
+
+	fmt.Println(exce.Check([]string{"cat", "dog", "elephant"},"dog"))	//10 RETURNS TRUE IF STRING IS PRESENT IN SLICE.
+
+	fmt.Println(exce.SecLargest([]int{1,2,3,4,5}))	//11 RETURNS THE SECOND LAGEST NUMBER.
 	
+	fmt.Println(exce.Indexing([]int{1,2,3,4,5},2))	//12 INDEXING TNE NUMBER THROUGH SLICE.
+
+	fmt.Println(exce.Repnum([]int{1, 2, 3, 2, 4, 5},2))  //13 RETURNS THE NO OF TIMES THE NUMBER REPEATED.
+
+	fmt.Println(exce.Reverse([]int{1,2,3,4,5}))	//14 RETURNS THE ELEMENTS IN REVERSE ORDER.
+
+	fmt.Println(exce.AscendingOrder([]int{1, 2, 3, 4, 5}))	//15 RETURNS IN ASCENDING ORDER.
+
+	fmt.Println(exce.CheckOccur([]string{"cat", "dog", "elephant"},"dog"))	//16 RETURNS THE INDEX OF THE STRING.
+
+	fmt.Println(exce.MatchLetter([]string{"cat", "dog", "elephant"},"e"))	//17 RETURNS STRING STARTING WITH E.
+
+	fmt.Println(exce.PalinDrome([]string{"racecar", "level", "hello"}))	//18 RETURNS THE STRINGS THAT ARE PALLINDROME.
+
+	fmt.Println(exce.PrintBackwards("This is a test"))	//19 RETURNS THE WORDS BACKWARDS.
+
+	fmt.Println(exce.Prime([]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}))	//20 RETURNS THE PRIME NUMBERS IN SLICE.
+
+	fmt.Println(exce.AlternateNum([]int{1, 2, 3, 4, 5}))	//21 PRINTS THE NUMBER ALTERNATELY PRESENT IN THE STRING.
+
+	fmt.Println(exce.DivisibleByN([]int{1, 2, 3, 4, 5},2))	//22 PRINTS THE NUMBER DIVISIBLE BY N.
+
+	fmt.Println(exce.CheckNum([]int{1, 2, 3, 4, 5},3))	//23 RETURNS TRUE IF SLICE CONTAINS THE GIVEN NUMBER.
+
+	fmt.Println(exce.MinLength([]string{"cat", "dog", "elephant", "lion"},5))	//24 RETURNS THE STRING HAVING MINIMUM 5 CHARACTERS.
+
+	fmt.Println(exce.MatchLetter([]string{"cat", "dog", "elephant"},"e"))	//25 RETURNS THE STRING CONTAINING THE GIVEN CHARACTER.
+
+	fmt.Println(exce.PalinDrome([]string{"racecar", "level", "hello"}))	//26 RETURN PALLINDROME STRINGS.
+
+	fmt.Println(exce.ReverseString("This is a test"))	//27 RETURNS THE STRING IN REVERSE.
+
+	fmt.Println(exce.LCM([]int{2,3,5})) 	//28 RETURNS LCM OF THE NUMBERS.
+
+	fmt.Println(exce.PalNum([]int{11, 12, 121, 12321}))	//29 RETURN PALLINDROME NUMBERS.
+	
+	fmt.Println(exce.DescOrder([]int{5, 4, 3, 2, 1}))	//30 RETURN TRUE IF PALLINDROME.
+
 }
